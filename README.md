@@ -12,7 +12,7 @@ PROJECT START STEPS:
         1.b. Run the following commands in the terminal/command line to build the app:
             - composer install
         1.c. Run the following command(s) in the terminal/command line to run the app:
-            - php artisan serve
+            - php artisan serve --host=127.0.0.1 --port=8080
 
     2. Go to http://127.0.0.1:8000/ in your browser to view it.
 
@@ -30,7 +30,7 @@ DOCKER START STEPS:
 
     2. Run the image in a container (Make sure port 8080 is available):
         2.a. Run the following command(s) in the terminal/command line:
-            - docker run -i -p 8000:8000 laravel-app
+            - docker run -i -p 8080:8080 laravel-app
         2.b. Check the logs for any errors.
 
     3. Go to http://127.0.0.1:8000/ in your browser to view it.
