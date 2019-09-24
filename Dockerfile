@@ -2,7 +2,6 @@ FROM composer:1.9
 
 COPY app /tmp/app/
 COPY artisan /tmp/
-COPY vendor /tmp/vendor/
 COPY bootstrap /tmp/bootstrap/
 COPY config /tmp/config/
 COPY database /tmp/database/
