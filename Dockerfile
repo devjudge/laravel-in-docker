@@ -13,7 +13,6 @@ COPY tests /tmp/tests/
 COPY webpack.mix.js /tmp/
 COPY server.php /tmp/
 COPY phpunit.xml /tmp/
-COPY package.json /tmp/
 COPY composer.json /tmp/
 COPY composer.lock /tmp/
 
