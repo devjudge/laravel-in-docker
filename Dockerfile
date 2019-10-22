@@ -1,20 +1,6 @@
 FROM composer:1.9
 
-COPY app /tmp/app/
-COPY artisan /tmp/
-COPY bootstrap /tmp/bootstrap/
-COPY config /tmp/config/
-COPY database /tmp/database/
-COPY public /tmp/public/
-COPY resources /tmp/resources/
-COPY routes /tmp/routes/
-COPY storage /tmp/storage/
-COPY tests /tmp/tests/
-COPY webpack.mix.js /tmp/
-COPY server.php /tmp/
-COPY phpunit.xml /tmp/
-COPY composer.json /tmp/
-COPY composer.lock /tmp/
+COPY . /tmp/
 
 WORKDIR /tmp/
 
