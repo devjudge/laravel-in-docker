@@ -13,5 +13,3 @@ PROJECT START STEPS:
             - composer install
         1.c. Run the following command(s) in the terminal/command line to run the app:
             - php artisan serve --host=127.0.0.1 --port=8080
-
-    2. Go to http://127.0.0.1:8080/ in your browser to view it.
